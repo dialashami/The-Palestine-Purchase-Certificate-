@@ -1,42 +1,39 @@
-# 🇵🇸 The Palestine Purchase Certificate
+# 🇵🇸 Palestine Purchase Certificate
 
 ## 📌 Project Overview
-The Palestine Purchase Certificate is a web-based application designed to generate and manage digital purchase certificates supporting Palestinian products and initiatives.  
+The Palestine Purchase Certificate is a web-based application that allows users to generate and manage digital certificates for supporting Palestinian products and initiatives.
 
-The system allows users to create, view, and manage purchase certificates in an organized and user-friendly way.
+The system helps organize certificate data in a simple, structured, and user-friendly way.
 
 ---
 
 ## 🎯 Objectives
-- Promote support for Palestinian products.
-- Provide a digital solution for issuing purchase certificates.
-- Ensure accurate and structured data management.
-- Deliver a simple and clean user experience.
+- Support and promote Palestinian products  
+- Provide a digital solution for issuing purchase certificates  
+- Maintain accurate and well-structured data  
+- Offer a clean and easy-to-use interface  
 
 ---
 
 ## 🛠️ Technologies Used
-- ASP.NET Core / .NET (Backend)
-- C#
-- RESTful API
-- HTML / CSS / JavaScript (if applicable)
-- SQL Database (if applicable)
-
-*(Edit this section if your project uses different technologies.)*
+- ASP.NET Core / .NET (Backend)  
+- C#  
+- RESTful API  
+- HTML / CSS / JavaScript (if used)  
+- SQL Database (if used)  
 
 ---
 
 ## ⚙️ Features
-- ✅ Create new purchase certificates  
-- ✅ View certificate details  
-- ✅ Store and manage certificate records  
-- ✅ REST API endpoints for certificate operations  
-- ✅ Clean and structured project architecture  
+- Create new purchase certificates  
+- View certificate details  
+- Manage and store certificate records  
+- REST API for certificate operations  
+- Clean and organized architecture  
 
 ---
 
 ## 📂 Project Structure
-
 The-Palestine-Purchase-Certificate/
 │── Controllers/
 │── Models/
@@ -46,28 +43,27 @@ The-Palestine-Purchase-Certificate/
 │── appsettings.json
 │── README.md
 
-
-*(Modify structure according to your actual project folders.)*
-
 ---
 
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the repository
-```bash
 git clone https://github.com/dialashami/The-Palestine-Purchase-Certificate-.git
-2️⃣ Navigate to the project folder
-cd The-Palestine-Purchase-Certificate-
-3️⃣ Run the project
 
-Using .NET CLI:
+### 2️⃣ Navigate to the project folder
+cd The-Palestine-Purchase-Certificate-
+
+### 3️⃣ Run the project
 dotnet run
 
-Or open the solution in Visual Studio and run it.
+Or open the project in Visual Studio and run it.
 
-🔗 API Endpoints (Example)
+---
+
+## 🔗 API Endpoints (Example)
+
 | Method | Endpoint               | Description            |
-| ------ | ---------------------- | ---------------------- |
+|--------|------------------------|------------------------|
 | GET    | /api/certificates      | Get all certificates   |
 | GET    | /api/certificates/{id} | Get certificate by ID  |
 | POST   | /api/certificates      | Create new certificate |
