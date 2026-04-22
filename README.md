@@ -61,7 +61,6 @@ cd The-Palestine-Purchase-Certificate-
 3️⃣ Run the project
 
 Using .NET CLI:
-
 dotnet run
 
 Or open the solution in Visual Studio and run it.
